@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Тип підключення:
+
+Провідна: Підключається до комп'ютера через USB або старіший PS/2 порт. Провідні клавіатури надійніші та не потребують зарядки або батарей.
+Бездротова: Підключається через Bluetooth або радіочастотний адаптер. Переваги — мобільність і відсутність кабелів, але потребує батарей або зарядки.
+Тип перемикачів (клавіш):
+
+Мембранні: Найпоширеніший тип перемикачів, де клавіші натискаються на гумову мембрану, яка активує контакт. Вони дешевші, але мають менший термін служби і менш чіткий відгук.
+Механічні: Кожна клавіша має індивідуальний механічний перемикач. Вони більш довговічні, чутливіші і дають чіткий тактильний та звуковий зворотній зв’язок. Використовуються для ігор та роботи з великими обсягами тексту.
+Різновиди механічних перемикачів: Cherry MX (Red, Blue, Brown), Razer Green та інші.
+Напівмеханічні: Поєднують у собі мембранні та механічні елементи для компромісу між ціною та відчуттями від натискання.
+Розкладка клавіш:
+
+Повнорозмірна: Має всі стандартні клавіші, включаючи цифровий блок (Numpad). Використовується для роботи з текстами, програмування, фінансових розрахунків.
+Без цифрового блоку (Tenkeyless, TKL): Компактна клавіатура без цифрової частини, що економить місце на робочому столі.
+Компактна або міні-клавіатура: Мінімальна кількість клавіш для зручності перенесення або використання з мобільними пристроями.
+Форм-фактор:
+
+Класичний: Стандартне пряме розміщення клавіш.
+Ергономічний: Клавіші розташовані під кутом або з роздільною панеллю для зменшення напруги рук під час тривалої роботи.
+Геймерські: Спеціальні клавіатури з додатковими функціональними клавішами, підсвічуванням і покращеною швидкістю реакції.
+Підсвічування:
+
+Одноколірне: Підсвічує клавіші єдиним кольором, зазвичай білим або червоним, для зручності роботи в темряві.
+RGB-підсвічування: Дозволяє налаштовувати індивідуальні кольори підсвічування для кожної клавіші або групи клавіш. Використовується в геймерських і професійних клавіатурах.
+Програмовані клавіші:
+
+Деякі клавіатури мають програмовані макро-клавіші, на які можна записати послідовності команд або дій. Це особливо корисно для геймерів, програмістів або користувачів, що працюють з графічними редакторами.
+Клавіші мультимедіа:
+
+Наявність окремих клавіш для управління музикою, гучністю, запуску веб-браузера чи інших програм дозволяє швидше взаємодіяти з комп'ютером.
+Додаткові можливості:
+
+Підставка для рук: Деякі моделі мають знімні або вбудовані підставки для зручного розміщення зап'ясть під час набору тексту.
+Вологозахист: Багато клавіатур мають захист від випадкових розливів рідини, що захищає пристрій від пошкоджень.
+Тактильний і звуковий зворотній зв'язок:
+
+Мембранні клавіатури мають тихіший звук при натисканні, в той час як механічні забезпечують чіткий клацання і тактильне відчуття, що корисно для набору тексту чи в іграх.
+Інтерфейс підключення:
+
+USB: Найпоширеніший інтерфейс для підключення провідних клавіатур.
+Bluetooth: Використовується для бездротових клавіатур, особливо популярний у ноутбуках, планшетах та мобільних пристроях.
+PS/2: Старий тип інтерфейсу для підключення клавіатури, ще можна зустріти на деяких комп'ютерах.</value>
+  </data>
+</root>

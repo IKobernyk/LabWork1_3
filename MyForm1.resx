@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Тип матриці (панелі):
+
+TN (Twisted Nematic): Дешеві і швидкі матриці з коротким часом відгуку, але з гіршими кутами огляду та менш точною передачею кольорів.
+IPS (In-Plane Switching): Висока якість зображення і широкі кути огляду, ідеально підходить для роботи з графікою і відео. Трохи повільніший відгук порівняно з TN.
+VA (Vertical Alignment): Добрий компроміс між TN та IPS: кращі кути огляду і глибші чорні кольори, однак може мати більший час відгуку.
+Діагональ екрану:
+
+Вимірюється у дюймах по діагоналі екрану. Стандартні офісні монітори мають діагональ від 19 до 27 дюймів, тоді як великі та ігрові монітори можуть мати від 32 до 49 дюймів і більше.
+Роздільна здатність:
+
+Визначає кількість пікселів по горизонталі і вертикалі. Основні типи роздільної здатності:
+HD (1280x720)
+Full HD (1920x1080): Найбільш поширена роздільна здатність для офісних і домашніх моніторів.
+Quad HD (2560x1440): Краще деталізоване зображення, часто використовується в моніторах для геймерів і дизайнерів.
+4K UHD (3840x2160): Дуже висока чіткість, популярна у великих моніторах та моніторах для роботи з графікою та відео.
+Частота оновлення:
+
+Вимірюється в герцах (Гц) і показує, скільки разів на секунду оновлюється зображення на екрані. Важливо для геймерів та аніматорів:
+60 Гц — стандартна частота для більшості моніторів.
+120 Гц, 144 Гц і 240 Гц — використовуються в ігрових моніторах для плавнішого і більш динамічного зображення.
+Час відгуку:
+
+Вимірюється в мілісекундах (мс) і визначає, скільки часу потрібно пікселю для зміни кольору. Чим менший час відгуку, тим швидше оновлюється зображення:
+1-5 мс — оптимальний для ігор і відео.
+5-10 мс — підходить для офісних завдань і стандартного використання.
+Яскравість:
+
+Вимірюється в канделах на квадратний метр (кд/м²) і показує максимальну світлову віддачу монітора. Стандартні монітори мають яскравість у діапазоні 250-350 кд/м². Для моніторів із підтримкою HDR яскравість може сягати 600-1000 кд/м².
+Контрастність:
+
+Відношення між найяскравішим білим і найтемнішим чорним кольором. Стандартна контрастність для більшості моніторів — 1000:1. Динамічна контрастність може бути значно вищою і досягати 3000:1 або більше.
+Кути огляду:
+
+Вимірюються в градусах і показують, під яким кутом можна дивитися на екран без спотворення кольорів та яскравості. Найкращі кути огляду у моніторів з IPS матрицею — до 178°.
+Тип підсвічування:
+
+LED (Light Emitting Diode): Сучасні монітори використовують світлодіодне підсвічування, яке є енергоефективним і забезпечує високу яскравість та точність кольорів.
+OLED (Organic LED): Вища якість зображення з глибокими чорними кольорами, оскільки кожен піксель сам випромінює світло, але такі монітори є дорожчими.
+Порти та підключення:
+
+HDMI: Основний стандарт для передачі відео і звуку.
+DisplayPort: Використовується в ігрових і професійних моніторах, підтримує високі роздільні здатності та частоти оновлення.
+DVI, VGA: Більш старі варіанти підключення, використовуються в бюджетних моделях.
+USB-C, Thunderbolt: Сучасні порти для підключення моніторів до ноутбуків і інших пристроїв з високою швидкістю передачі даних.
+Додаткові функції:
+
+HDR (High Dynamic Range): Підтримка розширеного динамічного діапазону для покращеної яскравості і контрасту.
+Вбудовані динаміки: Деякі монітори оснащені динаміками для аудіовиводу.
+Регулювання положення екрану: Можливість нахилу, повороту, обертання монітора для комфортного користування.</value>
+  </data>
+</root>

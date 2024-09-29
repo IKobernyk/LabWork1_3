@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Процесор (CPU)
+Центральний процесор — це "мозок" комп'ютера, який виконує всі арифметичні та логічні операції.
+Основні характеристики:
+Кількість ядер: від 2 до 16 і більше (чим більше ядер, тим вища продуктивність у багатозадачних завданнях).
+Тактова частота: вимірюється в ГГц (гігагерцах), від 2 до 5 ГГц (чим вища частота, тим швидше процесор може виконувати операції).
+Кеш-пам'ять: тимчасове зберігання даних для швидкого доступу процесора (L1, L2, L3 кеш).
+2. Материнська плата
+Основна плата, на якій з'єднані всі компоненти системного блоку.
+Основні характеристики:
+Форм-фактор: ATX, Micro-ATX, Mini-ITX — визначає розміри та можливості підключення компонентів.
+Сокет процесора: повинен відповідати типу процесора (наприклад, Intel LGA1200 або AMD AM4).
+Чіпсет: контролює взаємодію між компонентами (наприклад, Intel Z590 або AMD B550).
+Слоти оперативної пам'яті (DIMM): кількість та тип підтримуваної оперативної пам'яті (DDR4, DDR5).
+Роз'єми PCIe: для підключення відеокарт, SSD або інших розширювальних карт.
+3. Оперативна пам'ять (RAM)
+Відповідає за тимчасове зберігання даних для поточних процесів.
+Основні характеристики:
+Об'єм: зазвичай від 4 до 64 ГБ (залежно від потреб користувача).
+Тип: DDR4 або DDR5 — новіший тип швидший та енергоефективніший.
+Частота: вимірюється в МГц (від 2400 до 4800 МГц і більше) — визначає швидкість обробки даних.
+4. Відеокарта (GPU)
+Пристрій, який обробляє графіку, потрібний для ігор, відеообробки та інших ресурсомістких завдань.
+Основні характеристики:
+Тип: інтегрована (вбудована в процесор або материнську плату) або дискретна (окрема плата).
+Об'єм відеопам'яті: від 2 до 16 ГБ і більше (для геймерів та професіоналів з обробки відео більше відеопам'яті краще).
+Підтримка DirectX та OpenGL: важливо для ігор та професійного софту.
+5. Накопичувачі (Storage)
+Використовуються для зберігання операційної системи, програм і даних.
+Основні види:
+HDD (жорсткий диск): велика місткість (від 500 ГБ до декількох ТБ), але нижча швидкість порівняно з SSD.
+SSD (твердотільний накопичувач): швидший доступ до даних (об'єми від 128 ГБ до 2 ТБ і більше), що пришвидшує роботу системи.
+NVMe SSD: новий стандарт SSD, що пропонує вищі швидкості передачі даних через інтерфейс PCIe.
+6. Блок живлення (PSU)
+Забезпечує комп'ютер електроенергією.
+Основні характеристики:
+Потужність: вимірюється у ватах (W), зазвичай від 400 до 1000 Вт. Вибір потужності залежить від енергоспоживання процесора, відеокарти та інших компонентів.
+Клас енергоефективності: від 80 Plus Bronze до 80 Plus Titanium, що вказує на ефективність перетворення електроенергії.
+7. Охолодження
+Важливе для підтримання оптимальної температури компонентів, особливо процесора і відеокарти.
+Основні типи:
+Кулери: вентилятори для процесора або корпусу.
+Радіатори: для розсіювання тепла з процесора.
+Рідинне охолодження: більш ефективне, використовується у високопродуктивних системах.
+8. Корпус
+Вміщує всі компоненти і забезпечує їх захист і належну вентиляцію.
+Основні характеристики:
+Форм-фактор: визначає сумісність з материнською платою (ATX, Micro-ATX тощо).
+Кількість слотів для накопичувачів та вентиляторів: чим більше слотів, тим гнучкіший корпус для розширень.
+Вентиляція: важливий фактор для охолодження компонентів.
+9. Порти та роз'єми
+Наявність різних портів дозволяє підключати периферійні пристрої.
+Основні порти:
+USB (2.0, 3.0, 3.1, Type-C): для підключення миші, клавіатури, флешок та інших пристроїв.
+HDMI, DisplayPort, VGA: для підключення монітора.
+Ethernet: для підключення до дротової мережі.
+Аудіо роз'єми: для підключення навушників, мікрофонів та колонок.</value>
+  </data>
+</root>
